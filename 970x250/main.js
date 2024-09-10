@@ -22,7 +22,7 @@ function init2() {
 function setElements() {}
 
 function doAnimation() {
-  tl2.to('#bg_1', 30, { scale: 1.65, x: "+=147", y: '-=101', ease: 'none' })
+  tl2.to('#bg_1', 50, { scale: 1.65, x: "+=147", y: '-=101', ease: 'none' })
 
   tl.to('#main_content', 0.5, { autoAlpha: 1, ease: Power1.easeInOut })
     .to('#h1', 0.5, { autoAlpha: 1, ease: Power1.easeInOut })
